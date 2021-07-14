@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.upper-sec{
+    display: flex;
+}
+.txt-highlight{
+    color: #f6947f;
+    padding-left: 35px;
+    padding-top: - 10px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 4px 6px;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+}
+a:hover{
+    cursor: pointer;
+}
+.button a{
+    color: white;
+    border-radius: 13px;
+    background-image: linear-gradient(180deg , lightsalmon , tomato);
+    padding: 7px 15px;
+    
+}
+.mid-sec{
+    display: flex;
+}
