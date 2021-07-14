@@ -27,10 +27,18 @@ ul li{
     list-style-type: none;
     display: inline;
     padding: 4px 6px;
+    font-weight: 900;
+}
+ul{
+    text-align: center;
+}
+.current{
+    color: #f6947f;
 }
 a{
     text-decoration: none;
-    color: rgb(7, 0, 0);
+    color: black;
+
 }
 a:hover{
     cursor: pointer;
@@ -44,4 +52,25 @@ a:hover{
 }
 .mid-sec{
     display: flex;
+}
+.work h1{
+    text-align: center;
+}
+.work-sec{
+    display: flex;
+}
+.wk{
+    width: 30;
+}
+.wk img{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.inq h1{
+    text-align: center;
+}
+footer{
+    display: block;
+    margin: auto;
 }
