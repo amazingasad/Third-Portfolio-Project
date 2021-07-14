@@ -1,76 +1,101 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-h1{
-    font-size: 35px;
+h1 {
+  font-size: 35px;
 }
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
 }
-.half-width{
-    width: 40%;
-    padding: 5%;
+.half-width {
+  width: 40%;
+  padding: 5%;
 }
-.half-width img{
-    width: 100%;
+.half-width img {
+  width: 100%;
 }
 
-.upper-sec{
-    display: flex;
+.upper-sec {
+  display: flex;
 }
-.txt-highlight{
-    color: #f6947f;
-    padding-left: 35px;
-    padding-top: - 10px;
+.txt-highlight {
+  color: #f6947f;
+  padding-left: 35px;
+  padding-top: -10px;
 }
-ul li{
-    list-style-type: none;
-    display: inline;
-    padding: 4px 6px;
-    font-weight: 900;
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 4px 6px;
+  font-weight: 900;
 }
-ul{
-    text-align: center;
+ul {
+  text-align: center;
 }
-.current{
-    color: #f6947f;
+.current {
+  color: #f6947f;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+}
+.button a {
+  color: white;
+  border-radius: 13px;
+  background-image: linear-gradient(180deg, lightsalmon, tomato);
+  padding: 7px 15px;
+}
+.mid-sec {
+  display: flex;
+}
+.work h1 {
+  text-align: center;
+}
+.work-sec {
+  display: flex;
+}
+.wk {
+  width: 30;
+}
+.wk img {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+.inq h1 {
+  text-align: center;
+}
+footer {
+  margin: 8rem auto;
+  width: 65vw;
+}
 
+.call__to__action {
+  width: full;
+  padding: 4rem;
+  background: url("./images/footer-bg.jpg") center/cover;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-a:hover{
-    cursor: pointer;
+
+.call__to__action .heading {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.button a{
-    color: white;
-    border-radius: 13px;
-    background-image: linear-gradient(180deg , lightsalmon , tomato);
-    padding: 7px 15px;
-    
-}
-.mid-sec{
-    display: flex;
-}
-.work h1{
-    text-align: center;
-}
-.work-sec{
-    display: flex;
-}
-.wk{
-    width: 30;
-}
-.wk img{
-    display: block;
-    width: 70%;
-    margin: auto;
-}
-.inq h1{
-    text-align: center;
-}
-footer{
-    display: block;
-    margin: auto;
+
+.call__to__action .button {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.9rem;
+  background-color: coral;
+  border-radius: 0.2rem;
+  color: white;
 }
